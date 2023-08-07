@@ -1,0 +1,1 @@
+# trilium-theme-catppuccin
