@@ -104,3 +104,7 @@ body .CodeMirror {
 .form-control:focus {
   box-shadow: 0px 0px transparent;
 }
+
+.tab-row-widget .note-tab[active]:hover .note-tab-wrapper {
+  color: var(--active-tab-background-color) !important;
+}
