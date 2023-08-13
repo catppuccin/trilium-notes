@@ -1,0 +1,106 @@
+:root {
+  --theme-style: dark;
+
+  --main-font-family: "Helvetica";
+  --main-font-size: normal;
+
+  --tree-font-family: "Helvetica";
+  --tree-font-size: normal;
+
+  --detail-font-family: "Helvetica";
+  --detail-font-size: normal;
+
+  --monospace-font-family: "FiraCode Nerd Font Mono";
+  --monospace-font-size: normal;
+
+  --main-background-color: #11111b; /* Crust */
+  --main-text-color: #cdd6f4; /* Text */
+  --main-border-color: #cdd6f4; /* Text */
+
+  --accented-background-color: #313244; /* Boh */
+  --more-accented-background-color: #181825; /* Mantle */
+
+  --button-text-color: #cdd6f4; /* Text */
+  --button-background-color: #181825; /* Mantle */
+  --button-disabled-text-color: #9399b2; /* Overlay2 */
+  --button-disabled-background-color: #11111b; /* Crust */
+  --button-border-color: #1e1e2e; /* Base */
+  --button-border-radius: 2px;
+
+  --primary-button-background-color: #7f849c; /* Overlay1 */
+  --primary-button-text-color: #cdd6f4; /* Text */
+  --primary-button-border-color: #7f849c; /* Overlay1 */
+
+  --muted-text-color: #9399b2; /* Overlay2 */
+
+  --input-text-color: #cdd6f4; /* Text */
+  --input-background-color: #11111b; /* Crust */
+
+  --hover-item-text-color: #cdd6f4; /* Text */
+  --hover-item-background-color: #313244; /* Surface0 */
+
+  --active-item-text-color: #cdd6f4; /* Text */
+  --active-item-background-color: #313244; /* Surface0 */
+  --active-item-border-color: transparent;
+
+  --menu-text-color: #cdd6f4; /* Text */
+  --menu-background-color: #313244; /* Boh */
+
+  --modal-background-color: #11111b; /* Crust */
+  --modal-backdrop-color: #45475a; /* Surface1 */
+
+  --left-pane-background-color: #181825; /* Mantle */
+  --left-pane-text-color: #cdd6f4; /* Text */
+
+  --launcher-pane-background-color: #181825; /* Mantle */
+  --launcher-pane-text-color: #cdd6f4; /* Text */
+
+  --active-tab-background-color: #11111b; /* Crust */
+  --active-tab-text-color: #cdd6f4; /* Text */
+  --active-tab-hover-background-color: #cba6f7; /* Mauve*/
+
+  --inactive-tab-background-color: #181825; /* Mantle */
+  --inactive-tab-text-color: #cdd6f4; /* Text */
+  --inactive-tab-hover-background-color: #45475a; /* Surface1 */
+
+  --scrollbar-border-color: #cba6f7; /* Mauve*/
+  --tooltip-background-color: #1e1e2e; /* Base */
+  --link-color: #74c7ec /* Sapphire */;
+
+  --mermaid-theme: dark;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-border-color) !important;
+}
+
+span.fancytree-custom-icon {
+  color: var(--scrollbar-border-color);
+  background: none;
+}
+
+span.fancytree-node:hover {
+  border: 0px !important;
+  background-color: var(--hover-item-background-color) !important;
+}
+
+span.fancytree-active {
+  background-color: var(--active-tab-background-color) !important;
+}
+
+body .global-menu-button {
+  background-image: url("/custom/icons/icon-text.svg");
+}
+
+body .global-menu-button:hover {
+  background-image: url("/custom/icons/icon-mauve.svg");
+  background-color: transparent !important;
+}
+
+body .CodeMirror {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px transparent;
+}
