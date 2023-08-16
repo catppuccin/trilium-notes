@@ -1,0 +1,145 @@
+:root {
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+}
+
+:root {
+  --theme-style: dark;
+
+  --main-font-family: "Helvetica";
+  --main-font-size: normal;
+
+  --tree-font-family: "Helvetica";
+  --tree-font-size: normal;
+
+  --detail-font-family: "Helvetica";
+  --detail-font-size: normal;
+
+  --monospace-font-family: "FiraCode Nerd Font Mono";
+  --monospace-font-size: normal;
+
+  --main-background-color: var(--crust);
+  --main-text-color: var(--text);
+  --main-border-color: var(--text);
+
+  --accented-background-color: var(--mantle);
+  --more-accented-background-color: var(--surface0);
+
+  --button-text-color: var(--text);
+  --button-background-color: var(--mantle);
+  --button-disabled-text-color: var(--overlay2);
+  --button-disabled-background-color: var(--crust);
+  --button-border-color: var(--base);
+  --button-border-radius: 2px;
+
+  --primary-button-background-color: var(--overlay1);
+  --primary-button-text-color: var(--text);
+  --primary-button-border-color: var(--overlay1);
+
+  --muted-text-color: var(--overlay2);
+
+  --input-text-color: var(--text);
+  --input-background-color: var(--crust);
+
+  --hover-item-text-color: var(--text);
+  --hover-item-background-color: var(--surface0);
+
+  --active-item-text-color: var(--text);
+  --active-item-background-color: var(--surface0);
+  --active-item-border-color: transparent;
+
+  --menu-text-color: var(--text);
+  --menu-background-color: var(--surface0);
+
+  --modal-background-color: var(--crust);
+  --modal-backdrop-color: var(--surface1);
+
+  --left-pane-background-color: var(--mantle);
+  --left-pane-text-color: var(--text);
+
+  --launcher-pane-background-color: var(--mantle);
+  --launcher-pane-text-color: var(--text);
+
+  --active-tab-background-color: var(--crust);
+  --active-tab-text-color: var(--text);
+  --active-tab-hover-background-color: var(--mauve);
+
+  --inactive-tab-background-color: var(--mantle);
+  --inactive-tab-text-color: var(--text);
+  --inactive-tab-hover-background-color: var(--surface1);
+
+  --scrollbar-border-color: var(--mauve);
+  --tooltip-background-color: var(--base);
+  --link-color: var(--sapphire);
+
+  --mermaid-theme: dark;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-border-color) !important;
+}
+
+span.fancytree-custom-icon {
+  color: var(--scrollbar-border-color);
+  background: none;
+}
+
+span.fancytree-node:hover {
+  border: 0px !important;
+  background-color: var(--hover-item-background-color) !important;
+}
+
+span.fancytree-active {
+  background-color: var(--active-tab-background-color) !important;
+}
+
+body .global-menu-button {
+  background-image: url("/custom/icons/icon-text.svg");
+}
+
+body .global-menu-button:hover {
+  background-image: url("/custom/icons/icon-mauve.svg");
+  background-color: transparent !important;
+}
+
+body .CodeMirror {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px transparent;
+}
+
+.tab-row-widget .note-tab[active]:hover .note-tab-wrapper {
+  color: var(--active-tab-background-color) !important;
+}
+
+button.bx-history,
+.bx-dots-vertical-rounded,
+.bx-dock-right {
+  background-color: transparent !important;
+}
