@@ -136,12 +136,14 @@ body .global-menu-button:hover {
 
 button.bx-history,
 .bx-dots-vertical-rounded,
-.bx-dock-right {
+.bx-dock-right,
+.bx-edit-alt,
+.floating-button,
+.bx-x {
   background-color: transparent !important;
 }
 
 /* CODEMIRROR */
-
 div#root-widget
   div#rest-pane
   div#center-pane
@@ -212,6 +214,19 @@ div.CodeMirror span.cm-tag {
 }
 div.CodeMirror-lines {
   color: var(--flamingo);
+}
+div.CodeMirror-cursor {
+  filter: invert(100%);
+}
+
+.ck-find-result_selected {
+  color: var(--crust) !important;
+  background-color: var(--maroon);
+}
+
+.ck-find-result {
+  color: var(--crust) !important;
+  background-color: var(--yellow);
 }
 
 .note-detail-code-editor div.CodeMirror-selected,
