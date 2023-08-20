@@ -126,10 +126,6 @@ body .global-menu-button:hover {
   background-color: transparent !important;
 }
 
-body .CodeMirror {
-  filter: invert(100%) hue-rotate(180deg);
-}
-
 .form-control:focus {
   box-shadow: 0px 0px transparent;
 }
@@ -142,4 +138,94 @@ button.bx-history,
 .bx-dots-vertical-rounded,
 .bx-dock-right {
   background-color: transparent !important;
+}
+
+/* CODEMIRROR */
+
+div#root-widget
+  div#rest-pane
+  div#center-pane
+  div.note-detail
+  div.note-detail-code
+  div.note-detail-code-editor
+  div.CodeMirror-code
+  span {
+  font-family: var(--monospace-font-family);
+}
+div.CodeMirror span.cm-atom {
+  color: var(--peach);
+}
+div.CodeMirror span.cm-builtin {
+  color: var(--lavender);
+}
+div.CodeMirror span.cm-callee {
+  color: var(--sky) !important;
+}
+div.CodeMirror span.cm-comment {
+  color: var(--overlay1);
+  padding: 5px 2px;
+  margin: -5px -2px;
+}
+div.CodeMirror span.cm-def {
+  color: var(--yellow);
+}
+div.CodeMirror span.cm-keyword {
+  color: var(--mauve);
+}
+div.CodeMirror span.cm-matchhighlight {
+  color: var(--base) !important;
+  background-color: var(--mauve) !important;
+}
+div.CodeMirror span.cm-number {
+  color: var(--maroon);
+}
+div.CodeMirror span.cm-operator {
+  color: var(--mauve);
+}
+div.CodeMirror span.cm-overlay {
+  color: var(--base);
+}
+div.CodeMirror span.cm-property {
+  color: var(--blue);
+}
+div.CodeMirror span.cm-variable {
+  color: var(--yellow);
+}
+div.CodeMirror span.cm-variable-2 {
+  color: var(--text);
+}
+div.CodeMirror span.cm-variable-3,
+div.CodeMirror span.cm-meta {
+  color: var(--mauve);
+}
+div.CodeMirror span.cm-qualifier {
+  color: var(--yellow);
+}
+div.CodeMirror span.cm-string {
+  color: var(--green);
+}
+div.CodeMirror span.cm-string-2 {
+  color: var(--teal);
+}
+div.CodeMirror span.cm-tag {
+  color: var(--red);
+}
+div.CodeMirror-lines {
+  color: var(--flamingo);
+}
+
+.note-detail-code-editor div.CodeMirror-selected,
+.note-detail-code-editor div.CodeMirror-line::selection {
+  background-color: var(--surface0);
+}
+
+.CodeMirror-matchingbracket {
+  text-decoration: none;
+  color: var(--mauve) !important;
+  border: 1px solid var(--sapphire);
+}
+
+.CodeMirror-linenumber {
+  color: var(--lavender);
+  font-family: var(--monospace-font-family) !important;
 }
