@@ -99,6 +99,13 @@
   --mermaid-theme: dark;
 }
 
+/* CANVAS NOTE */
+.excalidraw.theme--dark {
+  --theme-filter: none !important;
+  --island-bg-color: var(--mantle) !important;
+  --button-hover-bg: var(--surface1) !important;
+}
+
 ::-webkit-scrollbar-thumb {
   background: var(--scrollbar-border-color) !important;
 }
