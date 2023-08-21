@@ -25,6 +25,8 @@
   --base: #eff1f5;
   --mantle: #e6e9ef;
   --crust: #dce0e8;
+
+  --accent: var(--mauve);
 }
 
 :root {
@@ -84,13 +86,13 @@
 
   --active-tab-background-color: var(--crust);
   --active-tab-text-color: var(--text);
-  --active-tab-hover-background-color: var(--mauve);
+  --active-tab-hover-background-color: var(--accent);
 
   --inactive-tab-background-color: var(--mantle);
   --inactive-tab-text-color: var(--text);
   --inactive-tab-hover-background-color: var(--surface1);
 
-  --scrollbar-border-color: var(--mauve);
+  --scrollbar-border-color: var(--accent);
   --tooltip-background-color: var(--base);
   --link-color: var(--sapphire);
 }
@@ -103,21 +105,21 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-border-color) !important;
+  background: var(--accent) !important;
 }
 
 span.fancytree-custom-icon {
-  color: var(--scrollbar-border-color);
+  color: var(--accent);
   background: none;
 }
 
 span.fancytree-node:hover {
   border: 0px !important;
-  background-color: var(--hover-item-background-color) !important;
+  background-color: var(--surface0) !important;
 }
 
 span.fancytree-active {
-  background-color: var(--active-tab-background-color) !important;
+  background-color: var(--crust) !important;
 }
 
 body .global-menu-button {
@@ -134,7 +136,7 @@ body .global-menu-button:hover {
 }
 
 .tab-row-widget .note-tab[active]:hover .note-tab-wrapper {
-  color: var(--active-tab-background-color) !important;
+  color: var(--crust) !important;
 }
 
 button.bx-history,

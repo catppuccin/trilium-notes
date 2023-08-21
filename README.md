@@ -40,13 +40,21 @@ This is the Catppuccin theme for the hierarchical note taking application [Trili
 
 ## Usage
 
+### Change accent color (Optional)
+
+The default **accent color** is _mauve_, if you want to change it, use the download script:
+
+```
+sh -c "$(curl -sS https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/change-accent.sh)"
+```
+
 ### Please follow the official instructions [here](https://github.com/zadam/trilium/wiki/Themes).
 
 #### In a nutshell:
 
 Install the theme by following these steps:
 
-- copy the _css_ (**raw**) content of your favorite palette
+- copy the _css_ (**raw**) content of your favorite palette (or from the downloaded file if you used the download script)
 - paste it into a new trilium **code** note (type: CSS) named "catppuccin-theme"
 - add a new attribute to the catppuccin-theme note `(Alt + A)`
   - either copy & paste `#appTheme=catppuccin` to the node's attributes
