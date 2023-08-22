@@ -44,8 +44,14 @@ This is the Catppuccin theme for the hierarchical note taking application [Trili
 
 The default **accent color** is _mauve_, if you want to change it, use the download script:
 
+#### Linux
 ```
 sh -c "$(curl -sS https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/change-accent.sh)"
+```
+
+#### Windows
+```
+iwr https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/change-accent.ps1 -UseBasicParsing | iex
 ```
 
 ### Please follow the official instructions [here](https://github.com/zadam/trilium/wiki/Themes).
