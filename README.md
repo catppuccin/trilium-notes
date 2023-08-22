@@ -1,4 +1,4 @@
-<h3 align="center">
+﻿<h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Catppuccin for <a href="https://github.com/zadam/trilium">Trilium</a>
@@ -51,7 +51,7 @@ sh -c "$(curl -sS https://raw.githubusercontent.com/SadAlexa/trilium-theme-catpp
 
 #### Windows
 ```
-iwr https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/change-accent.ps1 -UseBasicParsing | iex
+(iwr https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/change-accent.ps1).Content | iex
 ```
 
 ### Please follow the official instructions [here](https://github.com/zadam/trilium/wiki/Themes).
@@ -75,6 +75,7 @@ Install the theme by following these steps:
 ## 💝 Thanks to
 
 - [SedAlexa](https://github.com/SadAlexa)
+- [NicKoehler](https://github.com/NicKoehler)
 
 &nbsp;
 
