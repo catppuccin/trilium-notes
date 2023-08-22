@@ -1,4 +1,4 @@
-﻿# stolen from https://blog.carolinechiari.com/a-better-powershell-console-menu
+# stolen from https://blog.carolinechiari.com/a-better-powershell-console-menu
 function Get-MenuSelection {
     [CmdletBinding()]
     [OutputType([string])]
