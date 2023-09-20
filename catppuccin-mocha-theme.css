@@ -253,3 +253,14 @@ div.CodeMirror-cursor {
   color: var(--lavender);
   font-family: var(--monospace-font-family) !important;
 }
+
+/* codeblocks */
+.ck-content pre {
+  background: var(--base);
+  border: 1px solid var(--surface2);
+}
+
+.ck-editor__editable pre[data-language]:after {
+  background: transparent !important;
+  color: transparent !important;
+}

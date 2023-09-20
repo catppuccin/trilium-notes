@@ -25,8 +25,6 @@
   --base: #24273a;
   --mantle: #1e2030;
   --crust: #181926;
-
-  --accent: var(--mauve);
 }
 
 :root {
@@ -88,13 +86,13 @@
 
   --active-tab-background-color: var(--crust);
   --active-tab-text-color: var(--text);
-  --active-tab-hover-background-color: var(--accent);
+  --active-tab-hover-background-color: var(--mauve);
 
   --inactive-tab-background-color: var(--mantle);
   --inactive-tab-text-color: var(--text);
   --inactive-tab-hover-background-color: var(--surface1);
 
-  --scrollbar-border-color: var(--accent);
+  --scrollbar-border-color: var(--mauve);
   --tooltip-background-color: var(--base);
   --link-color: var(--sapphire);
 
@@ -109,21 +107,21 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent) !important;
+  background: var(--scrollbar-border-color) !important;
 }
 
 span.fancytree-custom-icon {
-  color: var(--accent);
+  color: var(--scrollbar-border-color);
   background: none;
 }
 
 span.fancytree-node:hover {
   border: 0px !important;
-  background-color: var(--surface0) !important;
+  background-color: var(--hover-item-background-color) !important;
 }
 
 span.fancytree-active {
-  background-color: var(--crust) !important;
+  background-color: var(--active-tab-background-color) !important;
 }
 
 body .global-menu-button {
@@ -140,7 +138,7 @@ body .global-menu-button:hover {
 }
 
 .tab-row-widget .note-tab[active]:hover .note-tab-wrapper {
-  color: var(--crust) !important;
+  color: var(--active-tab-background-color) !important;
 }
 
 button.bx-history,
@@ -252,4 +250,15 @@ div.CodeMirror-cursor {
 .CodeMirror-linenumber {
   color: var(--lavender);
   font-family: var(--monospace-font-family) !important;
+}
+
+/* codeblocks */
+.ck-content pre {
+    background: var(--base);
+    border: 1px solid var(--surface2);
+}
+
+.ck-editor__editable pre[data-language]:after {
+    background: transparent !important;
+    color: transparent !important;
 }
