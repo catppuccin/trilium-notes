@@ -219,6 +219,10 @@ div.CodeMirror-lines {
   color: var(--flamingo);
 }
 
+.cm-s-default .cm-attribute {
+  color: var(--yellow);
+}
+
 .ck-find-result_selected {
   color: var(--crust) !important;
   background-color: var(--maroon);
