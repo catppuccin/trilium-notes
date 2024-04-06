@@ -63,7 +63,7 @@ done
 
 filename="catppuccin-${palette}-theme.css"
 
-curl -O -sS "https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/${filename}"
+curl -O -sS "https://raw.githubusercontent.com/catppuccin/trilium-notes/main/${filename}"
 
 
 sed -i "0,/var(--mauve)/s//var(--${accent})/" ${filename}

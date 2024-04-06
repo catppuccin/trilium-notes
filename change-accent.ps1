@@ -120,7 +120,7 @@ $accent = Get-MenuSelection $accents "Select the accent you want"
 Clear-Host
 
 $filename = "catppuccin-$palette-theme.css"
-$url = "https://raw.githubusercontent.com/SadAlexa/trilium-theme-catppuccin/main/${filename}"
+$url = "https://raw.githubusercontent.com/catppuccin/trilium-notes/main/${filename}"
 Invoke-WebRequest -Uri $url -OutFile $filename
 
 $content = Get-Content $filename -Raw
