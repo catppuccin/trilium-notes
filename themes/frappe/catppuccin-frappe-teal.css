@@ -1,0 +1,268 @@
+:root {
+  --rosewater: #f2d5cf;
+  --flamingo: #eebebe;
+  --pink: #f4b8e4;
+  --mauve: #ca9ee6;
+  --red: #e78284;
+  --maroon: #ea999c;
+  --peach: #ef9f76;
+  --yellow: #e5c890;
+  --green: #a6d189;
+  --teal: #81c8be;
+  --sky: #99d1db;
+  --sapphire: #85c1dc;
+  --blue: #8caaee;
+  --lavender: #babbf1;
+  --text: #c6d0f5;
+  --subtext1: #b5bfe2;
+  --subtext0: #a5adce;
+  --overlay2: #949cbb;
+  --overlay1: #838ba7;
+  --overlay0: #737994;
+  --surface2: #626880;
+  --surface1: #51576d;
+  --surface0: #414559;
+  --base: #303446;
+  --mantle: #292c3c;
+  --crust: #232634;
+  --accent: var(--teal);
+}
+
+:root {
+  --theme-style: dark;
+  --mermaid-theme: dark;
+
+  --main-font-family: "Helvetica";
+  --main-font-size: normal;
+
+  --tree-font-family: "Helvetica";
+  --tree-font-size: normal;
+
+  --detail-font-family: "Helvetica";
+  --detail-font-size: normal;
+
+  --monospace-font-family: "FiraCode Nerd Font Mono";
+  --monospace-font-size: normal;
+
+  --main-background-color: var(--crust);
+  --main-text-color: var(--text);
+  --main-border-color: var(--text);
+
+  --accented-background-color: var(--mantle);
+  --more-accented-background-color: var(--surface0);
+
+  --button-text-color: var(--text);
+  --button-background-color: var(--mantle);
+  --button-disabled-text-color: var(--overlay2);
+  --button-disabled-background-color: var(--crust);
+  --button-border-color: var(--base);
+  --button-border-radius: 2px;
+
+  --primary-button-background-color: var(--overlay1);
+  --primary-button-text-color: var(--text);
+  --primary-button-border-color: var(--overlay1);
+
+  --muted-text-color: var(--overlay2);
+
+  --input-text-color: var(--text);
+  --input-background-color: var(--crust);
+
+  --hover-item-text-color: var(--text);
+  --hover-item-background-color: var(--surface0);
+
+  --active-item-text-color: var(--text);
+  --active-item-background-color: var(--surface0);
+  --active-item-border-color: transparent;
+
+  --menu-text-color: var(--text);
+  --menu-background-color: var(--surface0);
+
+  --modal-background-color: var(--crust);
+  --modal-backdrop-color: var(--surface1);
+
+  --left-pane-background-color: var(--mantle);
+  --left-pane-text-color: var(--text);
+
+  --launcher-pane-background-color: var(--mantle);
+  --launcher-pane-text-color: var(--text);
+
+  --active-tab-background-color: var(--crust);
+  --active-tab-text-color: var(--text);
+  --active-tab-hover-background-color: var(--accent);
+
+  --inactive-tab-background-color: var(--mantle);
+  --inactive-tab-text-color: var(--text);
+  --inactive-tab-hover-background-color: var(--surface1);
+
+  --scrollbar-border-color: var(--accent);
+  --tooltip-background-color: var(--base);
+  --link-color: var(--sapphire);
+}
+
+/* CANVAS NOTE */
+.excalidraw.theme--dark {
+  --theme-filter: none !important;
+  --island-bg-color: var(--mantle) !important;
+  --button-hover-bg: var(--surface1) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-border-color) !important;
+}
+
+span.fancytree-custom-icon {
+  color: var(--scrollbar-border-color);
+  background: none;
+}
+
+span.fancytree-node:hover {
+  border: 0px !important;
+  background-color: var(--hover-item-background-color) !important;
+}
+
+span.fancytree-active {
+  background-color: var(--active-tab-background-color) !important;
+}
+
+body .global-menu-button {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 53 40'%3E%3Cdefs%3E%3CclipPath id='b'%3E%3Cuse xlink:href='%23a'/%3E%3C/clipPath%3E%3Cpath id='a' d='M53 0v40H0V0h53Z'/%3E%3C/defs%3E%3Cg clip-path='url(%23b)'%3E%3Cpath fill='none' d='M53 0v40H0V0h53Z'/%3E%3Cpath fill='%23c6d0f5' d='M41.604.77C38.8.683 37.347 1.996 36.996 2.117c.32-.604.533-.985 1.35-1.835-2.778-.03-5.352.572-7.317 2.41-2.634 2.464-2.43 4.506-2.435 4.496 0 .001-.416-1.331-.54-2.757-2.868 3.97-4 9.228-1.826 13.151 1.35-3.255 3.492-6.06 6.254-8.273.09-2.321 1.024-4.283 2.5-5.73-1.331 1.593-1.92 3.41-1.86 5.24 3.212-2.396 7.149-3.993 11.473-4.517-3.13.575-5.967 1.823-8.447 3.525 1.552.709 3.324.82 5.187.171-1.786.837-3.768.974-5.774.245a25.137 25.137 0 0 0-4.723 4.536c2.415.79 5.057.627 7.687-.713-2.414 1.559-5.25 2.143-8.28 1.48a26.672 26.672 0 0 0-3.011 5.156c.975.719 5.205 2.974 12.46-2.377a11.772 11.772 0 0 1-1.855-.732c.023.01.748.077 2.867-1.192 1.874-1.096 3.486-3.08 4.675-4.626a19.845 19.845 0 0 1-1.8-.765s1.308.088 3.337-1.466c1.81-1.385 3.832-3.394 3.838-3.338.013.012-4.458-3.291-9.152-3.436M9.283 7.988c2.128-.619 3.483.095 3.775.119-.357-.398-.591-.647-1.374-1.134 2.118-.569 4.198-.618 6.043.395 2.473 1.36 2.697 2.957 2.699 2.948 0 .001.07-1.097-.1-2.208 2.931 2.46 4.776 6.246 3.844 9.665-1.637-2.215-3.798-3.932-6.322-5.074-.501-1.751-1.58-3.063-2.979-3.876 1.315.953 2.103 2.222 2.399 3.629-2.902-1.194-6.21-1.635-9.614-1.182 2.501-.179 7.799.183 12.097 3.75-1.7 1.079-3.75 1.475-6.01.971 2.136.713 4.413.6 6.606-.503a20.556 20.556 0 0 1 3.263 3.337c-.612.74-3.426 3.292-9.97.643a9.447 9.447 0 0 0 1.282-.923c-.015.012-.557.206-2.414-.344-1.637-.466-3.238-1.661-4.436-2.605a15.886 15.886 0 0 0 1.234-.938s-.983.325-2.824-.459c-1.643-.7-3.562-1.833-3.556-1.788-.008.011 2.796-3.388 6.357-4.423m15.277 29.26c-1.552-1.444-1.619-2.914-1.741-3.166-.157.492-.25.808-.274 1.694-1.506-1.46-2.56-3.147-2.616-5.17-.074-2.711 1.145-3.69 1.137-3.687.001 0-.947.488-1.788 1.18.618-3.636 2.869-7.037 6.168-7.97a15.438 15.438 0 0 0-1.141 7.727c-1.213 1.284-1.778 2.824-1.773 4.379.152-1.556.824-2.836 1.85-3.779.422 2.983 1.666 5.924 3.702 8.501-1.367-1.97-3.648-6.51-2.775-11.822 1.725.863 3.055 2.353 3.737 4.464-.448-2.113-1.652-3.93-3.638-5.187.232-1.505.635-2.97 1.186-4.345.914.135 4.41 1.182 5.395 7.886a8.97 8.97 0 0 0-1.394-.596c.018.007.444.356.89 2.158.41 1.579.197 3.492-.004 4.946a15.082 15.082 0 0 0-1.382-.549s.75.648.994 2.553c.218 1.7.211 3.843.245 3.816.014 0-4.181-.616-6.778-3.033'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+body .global-menu-button:hover {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 53 40'%3E%3Cdefs%3E%3CclipPath id='b'%3E%3Cuse xlink:href='%23a'/%3E%3C/clipPath%3E%3Cpath id='a' d='M53 0v40H0V0h53Z'/%3E%3C/defs%3E%3Cg clip-path='url(%23b)'%3E%3Cpath fill='none' d='M53 0v40H0V0h53Z'/%3E%3Cpath fill='%2381c8be' d='M41.604.77C38.8.683 37.347 1.996 36.996 2.117c.32-.604.533-.985 1.35-1.835-2.778-.03-5.352.572-7.317 2.41-2.634 2.464-2.43 4.506-2.435 4.496 0 .001-.416-1.331-.54-2.757-2.868 3.97-4 9.228-1.826 13.151 1.35-3.255 3.492-6.06 6.254-8.273.09-2.321 1.024-4.283 2.5-5.73-1.331 1.593-1.92 3.41-1.86 5.24 3.212-2.396 7.149-3.993 11.473-4.517-3.13.575-5.967 1.823-8.447 3.525 1.552.709 3.324.82 5.187.171-1.786.837-3.768.974-5.774.245a25.137 25.137 0 0 0-4.723 4.536c2.415.79 5.057.627 7.687-.713-2.414 1.559-5.25 2.143-8.28 1.48a26.672 26.672 0 0 0-3.011 5.156c.975.719 5.205 2.974 12.46-2.377a11.772 11.772 0 0 1-1.855-.732c.023.01.748.077 2.867-1.192 1.874-1.096 3.486-3.08 4.675-4.626a19.845 19.845 0 0 1-1.8-.765s1.308.088 3.337-1.466c1.81-1.385 3.832-3.394 3.838-3.338.013.012-4.458-3.291-9.152-3.436M9.283 7.988c2.128-.619 3.483.095 3.775.119-.357-.398-.591-.647-1.374-1.134 2.118-.569 4.198-.618 6.043.395 2.473 1.36 2.697 2.957 2.699 2.948 0 .001.07-1.097-.1-2.208 2.931 2.46 4.776 6.246 3.844 9.665-1.637-2.215-3.798-3.932-6.322-5.074-.501-1.751-1.58-3.063-2.979-3.876 1.315.953 2.103 2.222 2.399 3.629-2.902-1.194-6.21-1.635-9.614-1.182 2.501-.179 7.799.183 12.097 3.75-1.7 1.079-3.75 1.475-6.01.971 2.136.713 4.413.6 6.606-.503a20.556 20.556 0 0 1 3.263 3.337c-.612.74-3.426 3.292-9.97.643a9.447 9.447 0 0 0 1.282-.923c-.015.012-.557.206-2.414-.344-1.637-.466-3.238-1.661-4.436-2.605a15.886 15.886 0 0 0 1.234-.938s-.983.325-2.824-.459c-1.643-.7-3.562-1.833-3.556-1.788-.008.011 2.796-3.388 6.357-4.423m15.277 29.26c-1.552-1.444-1.619-2.914-1.741-3.166-.157.492-.25.808-.274 1.694-1.506-1.46-2.56-3.147-2.616-5.17-.074-2.711 1.145-3.69 1.137-3.687.001 0-.947.488-1.788 1.18.618-3.636 2.869-7.037 6.168-7.97a15.438 15.438 0 0 0-1.141 7.727c-1.213 1.284-1.778 2.824-1.773 4.379.152-1.556.824-2.836 1.85-3.779.422 2.983 1.666 5.924 3.702 8.501-1.367-1.97-3.648-6.51-2.775-11.822 1.725.863 3.055 2.353 3.737 4.464-.448-2.113-1.652-3.93-3.638-5.187.232-1.505.635-2.97 1.186-4.345.914.135 4.41 1.182 5.395 7.886a8.97 8.97 0 0 0-1.394-.596c.018.007.444.356.89 2.158.41 1.579.197 3.492-.004 4.946a15.082 15.082 0 0 0-1.382-.549s.75.648.994 2.553c.218 1.7.211 3.843.245 3.816.014 0-4.181-.616-6.778-3.033'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-color: transparent !important;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px transparent;
+}
+
+.tab-row-widget .note-tab[active]:hover .note-tab-wrapper {
+  color: var(--active-tab-background-color) !important;
+}
+
+button.bx-history,
+.bx-dots-vertical-rounded,
+.bx-dock-right,
+.bx-edit-alt,
+.floating-button,
+.bx-x {
+  background-color: transparent !important;
+}
+
+/* CODEMIRROR */
+div#root-widget
+  div#rest-pane
+  div#center-pane
+  div.note-detail
+  div.note-detail-code
+  div.note-detail-code-editor
+  div.CodeMirror-code
+  span {
+  font-family: var(--monospace-font-family);
+}
+div.CodeMirror span.cm-atom {
+  color: var(--peach);
+}
+div.CodeMirror span.cm-builtin {
+  color: var(--lavender);
+}
+div.CodeMirror span.cm-callee {
+  color: var(--sky) !important;
+}
+div.CodeMirror span.cm-comment {
+  color: var(--overlay1);
+  padding: 5px 2px;
+  margin: -5px -2px;
+}
+div.CodeMirror span.cm-def {
+  color: var(--yellow);
+}
+div.CodeMirror span.cm-keyword {
+  color: var(--mauve);
+}
+div.CodeMirror span.cm-matchhighlight {
+  color: var(--base) !important;
+  background-color: var(--mauve) !important;
+}
+div.CodeMirror span.cm-number {
+  color: var(--maroon);
+}
+div.CodeMirror span.cm-operator {
+  color: var(--mauve);
+}
+div.CodeMirror span.cm-overlay {
+  color: var(--base);
+}
+div.CodeMirror span.cm-property {
+  color: var(--blue);
+}
+div.CodeMirror span.cm-variable {
+  color: var(--yellow);
+}
+div.CodeMirror span.cm-variable-2 {
+  color: var(--text);
+}
+div.CodeMirror span.cm-variable-3,
+div.CodeMirror span.cm-meta {
+  color: var(--mauve);
+}
+div.CodeMirror span.cm-qualifier {
+  color: var(--yellow);
+}
+div.CodeMirror span.cm-string {
+  color: var(--green);
+}
+div.CodeMirror span.cm-string-2 {
+  color: var(--teal);
+}
+div.CodeMirror span.cm-tag {
+  color: var(--red);
+}
+div.CodeMirror-lines {
+  color: var(--flamingo);
+}
+div.CodeMirror-cursor {
+  filter: invert(100%);
+}
+
+.cm-s-default .cm-attribute {
+  color: var(--yellow);
+}
+
+.ck-find-result_selected {
+  color: var(--crust) !important;
+  background-color: var(--maroon);
+}
+
+.ck-find-result {
+  color: var(--crust) !important;
+  background-color: var(--yellow);
+}
+
+.note-detail-code-editor div.CodeMirror-selected,
+.note-detail-code-editor div.CodeMirror-line::selection {
+  background-color: var(--surface0);
+}
+
+.CodeMirror-matchingbracket {
+  text-decoration: none;
+  color: var(--mauve) !important;
+  border: 1px solid var(--sapphire);
+}
+
+.CodeMirror-linenumber {
+  color: var(--lavender);
+  font-family: var(--monospace-font-family) !important;
+}
+
+/* codeblocks */
+.ck-content pre {
+    background: var(--base);
+    border: 1px solid var(--surface2);
+}
+
+.ck-editor__editable pre[data-language]:after {
+    background: transparent !important;
+    color: transparent !important;
+}

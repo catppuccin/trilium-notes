@@ -25,6 +25,7 @@
   --base: #eff1f5;
   --mantle: #e6e9ef;
   --crust: #dce0e8;
+  --accent: var(--mauve);
 }
 
 :root {
@@ -84,19 +85,18 @@
 
   --active-tab-background-color: var(--crust);
   --active-tab-text-color: var(--text);
-  --active-tab-hover-background-color: var(--mauve);
+  --active-tab-hover-background-color: var(--accent);
 
   --inactive-tab-background-color: var(--mantle);
   --inactive-tab-text-color: var(--text);
   --inactive-tab-hover-background-color: var(--surface1);
 
-  --scrollbar-border-color: var(--mauve);
+  --scrollbar-border-color: var(--accent);
   --tooltip-background-color: var(--base);
   --link-color: var(--sapphire);
 }
 
 /* CANVAS NOTE */
-
 .excalidraw .Island {
   --island-bg-color: var(--mantle) !important;
   --button-hover-bg: var(--surface1) !important;
