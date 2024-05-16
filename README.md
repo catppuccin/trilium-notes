@@ -36,33 +36,17 @@
 
 ## Usage
 
-1. Copy the _css_ (**raw**) content of your favorite theme (or from the downloaded file if you used the download script)
-2. Paste it into a new Trilium **code** note (type: CSS) named "catppuccin-theme"
-3. Add a new attribute to the catppuccin-theme note `(Alt + A)`
-    - Either copy & paste `#appTheme=catppuccin` to the node's attributes
-    - Or use the UI with these settings
-      - Type: Label
-      - Name: appTheme
-      - Value: catppuccin
-      - inheritable: _not ticked_
-4. Go to `Menu` > `Options`
-5. Select it as your new theme
+1. Copy the flavor and accent combination of your choice from [`themes/`](./themes/) into a new Trilium **code** note (type: CSS) named "catppuccin-theme".
+2. Add a new `#appTheme=catppuccin` attribute to the note (<kbd>Alt</kbd>+<kbd>A</kbd>).
+   - You can also use the UI to add the attribute with these settings:
+     - Type: `Label`
+     - Name: `appTheme`
+     - Value: `catppuccin`
+     - inheritable: _not ticked_
+3. Go to **Menu** > **Options** and select Catppuccinn as your theme.
 
-Further information and instructions can be found in the [official documentation](https://github.com/zadam/trilium/wiki/Themes).
-
-### Change accent color (Optional)
-
-The default **accent color** is _mauve_, if you want to change it, use the download script:
-
-#### Linux
-```
-sh -c "$(curl -sS https://raw.githubusercontent.com/catppuccin/trilium-notes/main/change-accent.sh)"
-```
-
-#### Windows
-```
-(iwr https://raw.githubusercontent.com/catppuccin/trilium-notes/main/change-accent.ps1).Content | iex
-```
+> [!NOTE]
+> Further information and instructions can be found in the [official documentation](https://github.com/zadam/trilium/wiki/Themes).
 
 ## 💝 Thanks to
 
